@@ -1,21 +1,22 @@
 {
-  "name" : "jaeger-app/encrypt",
-  "description" : "A simple encryption wrapper.",
-  "require" : {
-    "php" : ">=5.4.0",
-    "phpseclib/phpseclib": "~2.0"
-  },
-  "require-dev" : {
-    "phpunit/phpunit" : "4.*"
-  },
-  "authors" : [ {
-    "name" : "Eric Lamb",
-    "email" : "eric@mithra62.com"
-  } ],
-  "autoload" : {
-    "psr-4" : {
-      "JaegerApp\\" : "src/"
-    }
-  },
-  "license" : "MIT"
+	"name": "jaeger-app/encrypt",
+	"description": "A simple encryption wrapper.",
+	"require": {
+		"php": ">=5.4.0",
+		"phpseclib/phpseclib": "~2.0",
+		"jaeger-app/exceptions": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"authors": [{
+		"name": "Eric Lamb",
+		"email": "eric@mithra62.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JaegerApp\\": "src/"
+		}
+	},
+	"license": "MIT"
 }
