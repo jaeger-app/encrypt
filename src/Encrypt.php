@@ -1,18 +1,18 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Encrypt.php
+ * @filesource 	./Encrypt.php
  */
-namespace mithra62;
+namespace JaegerApp;
 
 use phpseclib\Crypt\AES;
 
 /**
- * mithra62 - Encryption Object
+ * Jaeger - Encryption Object
  *
  * Handles encrypting and decrypting items from and for storage
  *

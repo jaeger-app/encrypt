@@ -15,7 +15,7 @@
 	}],
 	"autoload": {
 		"psr-4": {
-			"JaegerApp\\": "src/"
+			"JaegerApp\\": "src"
 		}
 	},
 	"license": "MIT"
