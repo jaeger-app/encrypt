@@ -21,5 +21,6 @@ $ composer require jaeger-app/encrypt
 $encrypt = new Encrypt();
 $encrypt->setKey($encryption_key);
 $encoded = $encrypt->encode($string);
-$decoded = $encrypt->encode($encoded);
+$decoded = $encrypt->decode($encoded);
+$guid = $encrypt->guid();
 ```
