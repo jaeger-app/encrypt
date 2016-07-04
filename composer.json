@@ -4,7 +4,7 @@
 	"require": {
 		"php": ">=5.4.0",
 		"phpseclib/phpseclib": "~2.0",
-		"jaeger-app/exceptions": "dev-master"
+		"jaeger-app/exceptions": "^0.1"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.*"
